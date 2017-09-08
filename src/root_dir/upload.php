@@ -12,7 +12,7 @@
 				if($_FILES['firmware_img']['size'] < 2000000){
 
 					if(md5_file($_FILES['firmware_img']['tmp_name']) == "a9a5787b6d0185456544ff8512def67d"){
-						print '<script type="text/javascript">while(1==1){alert("SYSTEM COMPROMISED. Error Code: da39a3ee5e6b4b0d3255bfef95601890afd80709");}</script>';
+						print '<script type="text/javascript">while(1==1){alert("SYSTEM COMPROMISED. Error Code: STL-FF30075A");}</script>';
 
 						die();
 					} else {
